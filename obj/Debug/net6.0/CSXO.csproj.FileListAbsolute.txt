@@ -1,0 +1,15 @@
+G:\Projects\CSXO\bin\Debug\net6.0\CSXO.exe
+G:\Projects\CSXO\bin\Debug\net6.0\CSXO.deps.json
+G:\Projects\CSXO\bin\Debug\net6.0\CSXO.runtimeconfig.json
+G:\Projects\CSXO\bin\Debug\net6.0\CSXO.dll
+G:\Projects\CSXO\bin\Debug\net6.0\CSXO.pdb
+G:\Projects\CSXO\obj\Debug\net6.0\CSXO.csproj.AssemblyReference.cache
+G:\Projects\CSXO\obj\Debug\net6.0\CSXO.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\CSXO\obj\Debug\net6.0\CSXO.AssemblyInfoInputs.cache
+G:\Projects\CSXO\obj\Debug\net6.0\CSXO.AssemblyInfo.cs
+G:\Projects\CSXO\obj\Debug\net6.0\CSXO.csproj.CoreCompileInputs.cache
+G:\Projects\CSXO\obj\Debug\net6.0\CSXO.dll
+G:\Projects\CSXO\obj\Debug\net6.0\refint\CSXO.dll
+G:\Projects\CSXO\obj\Debug\net6.0\CSXO.pdb
+G:\Projects\CSXO\obj\Debug\net6.0\CSXO.genruntimeconfig.cache
+G:\Projects\CSXO\obj\Debug\net6.0\ref\CSXO.dll
