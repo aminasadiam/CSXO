@@ -4,6 +4,12 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        Program p = new Program();
+        p.PlayGame();    
+    }
+
+    public void PlayGame()
+    {
         Events events = new Events();
         Board board = new Board(3);
 
@@ -11,7 +17,7 @@ public class Program
 
         events.GreenMessage("Welcome to Tic Tac Toe!\n\n");
         events.BlueMessage("Please enter your Symbol (X or O) : ");
-        string userSymbol = Console.ReadLine().ToLower();
+        string userSymbol = Console.ReadLine()!.ToLower();
 
         if (userSymbol == "x")
         {
@@ -24,7 +30,7 @@ public class Program
             while (!gameEnded)
             {
                 events.BlueMessage("Please enter your move (row,col) : ");
-                string userMove = Console.ReadLine();
+                string userMove = Console.ReadLine()!;
                 string[] userMoveArray = userMove.Split(',');
                 int row = int.Parse(userMoveArray[0]);
                 int col = int.Parse(userMoveArray[1]);
@@ -62,7 +68,7 @@ public class Program
             while (!gameEnded)
             {
                 events.BlueMessage("Please enter your move (row,col) : ");
-                string userMove = Console.ReadLine();
+                string userMove = Console.ReadLine()!;
                 string[] userMoveArray = userMove.Split(',');
                 int row = int.Parse(userMoveArray[0]);
                 int col = int.Parse(userMoveArray[1]);
@@ -92,8 +98,8 @@ public class Program
         else
         {
             events.RedMessage("Invalid Symbol.\n");
-            events.BlueMessage("Please enter your Symbol: (X or O) ");
-            userSymbol = Console.ReadLine().ToLower();
+            events.BlueMessage("Please enter your Symbol (X or O) : ");
+            userSymbol = Console.ReadLine()!.ToLower();
         }
     }
 }

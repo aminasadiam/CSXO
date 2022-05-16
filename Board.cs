@@ -2,8 +2,8 @@ public class Board
 {
     public string[,] BoardArray { get; set; }
     public int BoardSize { get; set; }
-    public string UserSymbol { get; set; }
-    public string ComputerSymbol { get; set; }
+    public string? UserSymbol { get; set; }
+    public string? ComputerSymbol { get; set; }
 
     public Board(int boardSize)
     {
@@ -80,7 +80,7 @@ public class Board
         string[] randomRoom = freeRooms[randomIndex].Split(',');
         int row = int.Parse(randomRoom[0]);
         int col = int.Parse(randomRoom[1]);
-        FillBoard(row, col, ComputerSymbol);
+        FillBoard(row, col, ComputerSymbol!);
     }
 
     // check whos the winner
